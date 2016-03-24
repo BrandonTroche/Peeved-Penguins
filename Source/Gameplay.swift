@@ -31,7 +31,7 @@ class Gameplay: CCNode, CCPhysicsCollisionDelegate {
         levelNode.addChild(level)
         
         // visualize physics bodies & joints
-        gamePhysicsNode.debugDraw = true
+//        gamePhysicsNode.debugDraw = true
         
         // nothing shall collide with our invisible nodes
         pullbackNode.physicsBody.collisionMask = []
